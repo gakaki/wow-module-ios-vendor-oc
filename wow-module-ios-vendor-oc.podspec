@@ -18,7 +18,7 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
 
   s.source_files = 'wow-module-ios-vendor-oc/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'wow-module-ios-vendor-oc/Classes/**/*.h'
 
   # s.resource_bundles = {
   #   'wow-module-ios-vendor-oc' => ['wow-module-ios-vendor-oc/Assets/*.png']
