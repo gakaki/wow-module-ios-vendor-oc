@@ -1,8 +1,14 @@
 platform :ios, '9.0'
 inhibit_all_warnings!
-#use_frameworks!
 
 target 'wow-module-ios-vendor-oc_Example' do
+  use_frameworks!
+
+  pod 'JSPatchPlatform', '~> 1.6.2'
+  pod 'UMengAnalytics-NO-IDFA' #无IDFA版SDK
+  pod 'Pingpp/Alipay',        '~> 2.2.8'
+	pod 'Pingpp/Wx',        '~> 2.2.8'
+
   pod 'wow-module-ios-vendor-oc', :path => '../'
 
 end

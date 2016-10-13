@@ -15,12 +15,13 @@
 		6003F59E195388D20070C39A /* wow_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* wow_AppDelegate.m */; };
 		6003F5A7195388D20070C39A /* wow_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* wow_ViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		73A7C174E5B18253387FE1D8 /* libPods-wow-module-ios-vendor-oc_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 617F36E9A0F0AA85D33D09D6 /* libPods-wow-module-ios-vendor-oc_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CE1B18267729EF08A8E51DE8 /* Pods_wow_module_ios_vendor_oc_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB28B9E4E91045DEBE6A7A1 /* Pods_wow_module_ios_vendor_oc_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16EDEA23FE911ADD7BE5F609 /* Pods-wow-module-ios-vendor-oc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow-module-ios-vendor-oc_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-wow-module-ios-vendor-oc_Example/Pods-wow-module-ios-vendor-oc_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5CB28B9E4E91045DEBE6A7A1 /* Pods_wow_module_ios_vendor_oc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wow_module_ios_vendor_oc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* wow-module-ios-vendor-oc_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wow-module-ios-vendor-oc_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -35,7 +36,6 @@
 		6003F5A6195388D20070C39A /* wow_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wow_ViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		617F36E9A0F0AA85D33D09D6 /* libPods-wow-module-ios-vendor-oc_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wow-module-ios-vendor-oc_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AC0063D0FA8A4783C569BC /* Pods-wow-module-ios-vendor-oc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wow-module-ios-vendor-oc_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wow-module-ios-vendor-oc_Tests/Pods-wow-module-ios-vendor-oc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7B8CE82BC3965749A8F18B45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				73A7C174E5B18253387FE1D8 /* libPods-wow-module-ios-vendor-oc_Example.a in Frameworks */,
+				CE1B18267729EF08A8E51DE8 /* Pods_wow_module_ios_vendor_oc_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				8D2A7AA47B9A3F175DD5629F /* Pods_wow_module_ios_vendor_oc_Tests.framework */,
-				617F36E9A0F0AA85D33D09D6 /* libPods-wow-module-ios-vendor-oc_Example.a */,
+				5CB28B9E4E91045DEBE6A7A1 /* Pods_wow_module_ios_vendor_oc_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

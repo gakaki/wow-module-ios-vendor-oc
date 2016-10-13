@@ -37,3 +37,4 @@ Pods
 Example/Pods
 Example/Pods/*.*
 
+Podfile.lock
