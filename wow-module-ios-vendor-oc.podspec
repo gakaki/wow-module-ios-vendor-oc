@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'wow-module-ios-vendor-oc'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of wow-module-ios-vendor-oc.'
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ TODO: Add long description of the pod here.
   s.platform     = :ios, '9.0'
   s.requires_arc = true
 
-  s.source_files = 'wow-module-ios-vendor-oc/Classes/**/*'
+  s.source_files        = 'wow-module-ios-vendor-oc/Classes/**/*'
   s.public_header_files = 'wow-module-ios-vendor-oc/Classes/**/*.h'
 
   # s.resource_bundles = {
@@ -29,8 +29,6 @@ TODO: Add long description of the pod here.
 
 	s.dependency 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
 	s.dependency 'SDAutoLayout', '~> 2.1.7'
-
-
 
 	s.dependency 'SVProgressHUD', '~> 2.0.3' #提示框
 	s.dependency 'YYWebImage' ,   '~> 1.0.5'
